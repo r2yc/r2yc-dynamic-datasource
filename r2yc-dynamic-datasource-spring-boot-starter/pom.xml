@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>io.github.r2yc</groupId>
+        <artifactId>r2yc-dynamic-datasource-parent</artifactId>
+        <version>4.1.2.1</version>
+    </parent>
+    <name>r2yc-dynamic-datasource-spring-boot-starter</name>
+    <description>Spring Boot dynamic datasource starter</description>
+    <artifactId>r2yc-dynamic-datasource-spring-boot-starter</artifactId>
+    <packaging>jar</packaging>
+
+    <dependencies>
+        <dependency>
+            <groupId>io.github.r2yc</groupId>
+            <artifactId>r2yc-dynamic-datasource-spring-boot-autoconfigure</artifactId>
+            <version>${project.version}</version>
+        </dependency>
+    </dependencies>
+</project>
