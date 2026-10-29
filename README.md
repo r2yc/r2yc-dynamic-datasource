@@ -43,7 +43,7 @@ spring:
 
 ```
 
-## 2.3、Mybatis Mapper中增加注解 @MDS("test1") 
+## 2.3、Mybatis Mapper中增加注解 @MDS
 ```java
 package com.xxx.xxx.api.web.infrastructure.mapper.support;
 
