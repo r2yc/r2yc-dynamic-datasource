@@ -1,7 +1,7 @@
-# R2YC dynamic-datasource
+# 1、R2YC dynamic-datasource
 基于SpringBoot开发的轻量级动态数据源框架, 支持Springboot3.x, Springboo4.x，支持Seata数据源。目前仅支持HikariCP连接池以及其数据源。
-# 如何在Springboot项目中使用
-## pom引入依赖
+# 2、如何在Springboot项目中使用
+## 2.1、pom引入依赖
 ```
 <dependency>
     <groupId>io.github.r2yc</groupId>
@@ -9,7 +9,7 @@
     <version>4.1.2.1</version>
 </dependency>
 ```
-## application.yml中增加配置
+## 2.2、application.yml中增加配置
 ```
 spring:
   ...
@@ -43,7 +43,7 @@ spring:
 
 ```
 
-# Mybatis Mapper中增加注解 @MDS("test1") 
+## 2.3、Mybatis Mapper中增加注解 @MDS("test1") 
 ```java
 package com.xxx.xxx.api.web.infrastructure.mapper.support;
 
@@ -69,7 +69,7 @@ public interface StatTranslationMapper {
 
 ```
 
-# 业务Service中增加
+## 2.4、业务Service中增加
 ```
 @Service
 public class TestService {
